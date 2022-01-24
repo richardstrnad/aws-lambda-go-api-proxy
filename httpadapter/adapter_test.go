@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/awslabs/aws-lambda-go-api-proxy/httpadapter"
+	"github.com/richardstrnad/aws-lambda-go-api-proxy/httpadapter"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

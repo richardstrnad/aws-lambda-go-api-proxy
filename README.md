@@ -11,7 +11,7 @@ $ go get github.com/aws/aws-lambda-go/events
 $ go get github.com/aws/aws-lambda-go/lambda
 
 # Next, install the core library.
-$ go get github.com/awslabs/aws-lambda-go-api-proxy/...
+$ go get github.com/richardstrnad/aws-lambda-go-api-proxy/...
 ```
 
 ### Standard library
@@ -26,7 +26,7 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/awslabs/aws-lambda-go-api-proxy/httpadapter"
+	"github.com/richardstrnad/aws-lambda-go-api-proxy/httpadapter"
 )
 
 func main() {
@@ -55,7 +55,7 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/awslabs/aws-lambda-go-api-proxy/gin"
+	"github.com/richardstrnad/aws-lambda-go-api-proxy/gin"
 	"github.com/gin-gonic/gin"
 )
 
